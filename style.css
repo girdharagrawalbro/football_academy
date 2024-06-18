@@ -1,0 +1,701 @@
+/* home page */
+
+.first-section{
+
+    background-color: #1060d3;
+    height: 55vh;
+    place-items: center;
+    color:white;
+  }
+  .first-section .contain{
+    margin: auto;
+    width: 100%;
+    height: max-content;  
+  }
+  .first-section .contain .container{
+    justify-content: center;
+    display: flex;
+  }
+  .first-section .contain .container .logo, .first-section .contain .container .head{
+    padding: 30px;
+  }
+  
+  .first-section .contain .logo img{
+    width: 300px;
+  }
+  .first-section .contain .head{
+    margin-top: 5%;
+}
+  .first-section .contain .head .b{
+    margin-top: 30px;
+  
+  }
+  .first-section .contain .head h1{
+    align-self: center;
+    font-size:40PX;
+    color:white;
+    margin-bottom: 10px;
+  }
+  .first-section .contain .head p{
+    font-size: 18px;
+  }
+  
+  .first-section .contain .join-btn{
+    border: none;
+    padding: 14px 20px;
+    background-color: #1060d3;
+    width: 20%;
+    border: 2px solid white;
+      border-radius: 18px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    transition: .5s ease;
+  }
+  .first-section .contain .join-btn:hover{
+    background-color: rgb(28, 128, 228);
+  
+  }
+
+  .first-section .contain .flex {
+    display: flex;
+    width:45%;
+    margin : 25px 0 0 0;
+    justify-content: space-between;
+}
+.first-section .contain .flex button{
+    padding:10px 20px;
+    color:white;
+    cursor: pointer;
+   background: transparent;
+   border:1px solid white;
+   border-radius:20px;
+   transition:.5s all ease;
+}
+.first-section .contain .flex button:hover{
+    background-color:blue;
+}
+
+/*-------------SECOND SECTION-----------------*/
+  .second-section{
+    width: 100%;
+    text-align: center;
+    height: 21vh; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+.second-section .data{
+    position: absolute;
+    padding: 0 90px;
+  }
+  .second-section  .data h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  .second-section  .data p{
+  font-size: 20px;
+  letter-spacing: 1px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* about page */
+
+  .about .contain{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+.about .contain h1{
+    font-size: 35px;
+    padding: 5px;
+}
+.about .contain p{
+    font-size: 18px;
+}
+  .about .data{
+    margin: auto;
+    display: flex;
+  }
+      .about  .data h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .about .data p{
+  font-size: 20px;
+  letter-spacing: 1px;
+  
+  }
+  .about  .data h4{
+  font-size: 25px;
+  
+  padding: 10px;
+  }
+  
+  .about .data .other-data{
+  background-color: white;
+  width: 100%;
+  margin: 30px;
+  border-radius: 30px;
+  font-weight: 400;
+    padding: 5px 20px 5px 20px;
+  }
+  .about .data .other-data h2{
+  color: gray;
+  font-weight: 500;
+  font-size: 23px;
+  }
+  .about .data .other-data h3{
+  font-size: 20px;
+  padding-bottom:10px ;
+  padding-top:10px ;
+  
+  }
+.above-footer{
+    width: 100%;
+    background-color: #fff;
+}
+  .above-footer img{
+    margin: auto;
+    display: block;
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact page */
+.contact-section .hero-container{
+    width: 80%;
+    margin: 10px auto;
+  }
+  .contact-section .hero-container h1{
+    font-size   : 40px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .contact-section .hero-container .container{
+    display: flex;
+  }
+  .contact-section .hero-container .container .col1, 
+  .contact-section .hero-container .container .col2{
+    width: 50%;
+    padding: 5px;
+  }
+  .contact-section .hero-container .container .col1 .address, .contact-section .hero-container .container .col1 .mobile{
+    display: flex;
+    padding: 20px;
+  } 
+  .contact-section .hero-container .container .col1 .address .address-logo, .contact-section .hero-container .container .col1 .mobile .mobile-logo{
+    padding-right: 20px;
+  }
+  .contact-section .hero-container .container .col1 h4{
+   margin-bottom: 5px;
+   color: gray; 
+   font-size: 20px;
+   font-weight:  400;
+  }
+  .contact-section .hero-container .container .col1 h4{
+  font-size: 28px;
+  }
+  .contact-section .hero-container .container .col1 img{
+   width: 70px;
+  }
+  .contact-section .hero-container .container .col2{
+    padding: 20px;
+  }
+  .contact-section .hero-container .container .col2 label{
+    font-size: 20px;
+  }
+  .contact-section .hero-container .container .col2 input, textarea{
+    width: 100%;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+  .contact-section .hero-container .container .col2 input:hover, textarea:hover{
+    border: 2px solid rgb(114, 114, 224);
+  }
+  .contact-section .hero-container .container .col2 .con-sub-btn{
+    text-align: center;
+  }
+  .contact-section .hero-container .container .col2 button{
+    text-align: center;
+    background-color: #1060d3;
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 8px;
+  border: 2px solid gray;
+  transition: .5s all ease;
+  }
+  .contact-section .hero-container .container .col2 button:hover{
+    background-color:  rgb(114, 114, 224);
+    color: #fff;
+  border: 2px solid  rgb(114, 114, 224);
+  } 
+  .contact-section .result{
+    font-size: 22px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* signup-page  */
+  
+.signup .top-container{
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+.signup .top-container h1{
+  text-align: center;
+  font-size:xx-large;
+}
+  .signup .top-container .container{
+    justify-content: space-around;
+    display:flex;
+    place-items: center;
+}
+.signup .top-container .container .col{
+  padding: 10px 30px 10px 30px;
+  width: 100%;
+  place-items: center;
+}
+.signup .top-container .container .col form .flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 30px;
+}
+  .signup .top-container .container .col form label{
+    font-size: 18px;
+  }
+  .signup .top-container .container .col form label span{
+    color: red;
+  }
+.signup .top-container .container .col form .flex div{
+  width: 100%;
+}
+
+
+  .signup .top-container .container .col form input, select, option{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 2px;
+    padding: 6px;
+  }
+  .signup .top-container .container .col form .flex input{
+    
+  }
+  
+  
+  .signup .top-container .container .col form .submit-btn button {
+      margin-top: 18px ;
+      border: none;
+      color: white;
+      font-size: medium  ;
+      background-color:#1060d3;
+
+      padding: 14px 20px;
+      border-radius: 18px;
+      cursor: pointer;
+      display: block  ;
+      width: 100%;
+      transition: all .25s ease;
+  }
+  
+  .signup .top-container .container .col form .submit-btn button:hover{
+      background-color:#4c80ca;
+  
+  }
+  .signup .top-container .container .col .new-user{
+      width: 100%;
+font-size: 20px;
+padding-top: 8px;      
+      display: flex;
+  }
+  .signup .top-container .container .col .new-user .result{
+      padding-left: 40%;
+  }
+  .signup .top-container .container .col .new-user a{
+      text-decoration: none;
+  color: blue;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* login-page  */
+  .login .top-container{
+    width: 50%;
+    margin: auto;
+      padding: 100px 0 0 0 ;
+    height: 69vh;
+    
+    background-color: white;
+  }
+  .login .top-container h1{
+    text-align: center;
+    font-size:xx-large;
+  }
+  
+  .login .top-container .col{
+    width: 80%;
+    margin: auto;
+    padding: 50px 30px 30px 30px;
+    place-items: center;
+    }
+    .login .top-container .col form label{
+      font-size: 18px;
+    }
+      
+    .login .top-container .col form input{
+        width: 100%;
+      font-size: 15px;
+        margin-top: 6px;
+        padding: 10px;
+    }
+    
+    .login .top-container .col form .forget a{
+        font-size:18px;
+        color: rgb(79, 79, 200);
+    }
+    .login .top-container .col form .submit-btn button {
+        margin-top: 18px ;
+        border: none;
+        color: white;
+        font-size: medium  ;
+        background-color:#1060d3;
+        padding: 14px 20px;
+        border-radius: 18px;
+        cursor: pointer;
+        display: block  ;
+        width: 100%;
+        transition: all .25s ease;
+    }
+    
+    .login .top-container .col form .submit-btn button:hover{
+        background-color:#4c80ca;
+    
+      }
+      
+    .login .top-container .col .new-user p{
+    
+      width: 100%;
+      padding-top: 8px;      
+      display: flex;
+      align-items: right;
+    }
+    .login .top-container .col .new-user .result{
+      font-size: 23px;
+      text-align: center;
+    }
+    .login .top-container .col .new-user p{
+      font-size: 20px;
+        
+      }
+      .login .top-container .col .new-user p a{
+        margin-left: 10px;
+        color: rgb(79, 79, 200);
+    }
+
+    .login .top-container .col .new-user .result{
+        padding-left: 40%;
+    }
+    .signup .top-container .col .new-user a{
+        text-decoration: none;
+    color: blue;
+  
+    }
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* admin page  */
+  .admin{
+    width: 100%;
+  }
+  
+  .admin .outer{
+  place-items: center;
+}
+
+.admin .outer .first img{
+  width: 100%;
+  }
+.admin .outer .second{
+  margin: auto;
+  width: 90%;
+}
+.admin .outer .second .user-img{
+margin: -140px auto;
+}
+
+.admin .outer .second .user-img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+.admin .outer .abo{
+  text-align: center;
+  display: block;
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+.admin .outer .abo .name h1{
+  font-size: xx-large;
+}
+.admin .outer .second .othdata{
+  margin: 0;
+}
+.admin .outer .second .othdata{
+  display: flex;  
+  justify-content: space-around;
+}
+.admin .outer .second .othdata div{
+  text-align: center;
+  background-color: white;
+  padding: 20px 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.query-data{
+  width: 100%;
+  margin-bottom:10%;
+}
+.query-data .reg-data{
+  margin: auto;
+  background-color: white;
+  margin-top: 5%;
+  width: 90%;
+  text-align: center;
+  padding: 30px 0px;
+}
+.query-data .reg-data h1{
+  font-size: 30px;
+  padding: 20px 0px;
+  padding-top: 0;
+}
+.query-data .reg-data table{
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.query-data .reg-data table, th, td{
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+.query-data .reg-data table{
+border: 2px solid black;
+width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* forget password     */
+
+.forgot{
+  height: 82vh;
+}
+.forgot .container {
+  width: 100%;
+  max-width: 500px;
+  top: 23%;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.forgot .container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.forgot .container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.forgot .container form input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.forgot .container form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .5s all ease;
+}
+
+.forgot .container form button[type="submit"]:hover {
+  background-color: #0056b3;
+
+}
+.second-section .data{
+  width: 100%;
+  padding: 0;
+  margin: auto;
+ 
+}
+.second-section .data .flex{
+  margin: auto;
+  display: flex;
+  width: 60%;
+
+}
+.second-section .data .flex div{
+  width: 100%;
+  text-align: left;
+}
+.flex div span{
+  color: gray;
+  font-weight: 200;
+}
+
+.query-data .reg-data form .flex{
+  display:flex;
+  text-align: left;
+  width: 60%;
+  justify-content: space-between;
+  margin: auto;
+}
+.query-data .reg-data form .flex div h3{
+  margin-top: 30%;
+}
+.query-data .reg-data form .flex div .submit-btn{
+  padding: 8px 12px;
+  font-size: 15px;
+  margin-top: 30%;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+}
